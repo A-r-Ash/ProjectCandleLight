@@ -1,0 +1,6 @@
+Switch -> gate mechanic
+In-room teleport pad
+Room 02 + collectibles
+Win / lose / pause panels
+Candle expiry + retry (D02)
+Weekly build + playtest

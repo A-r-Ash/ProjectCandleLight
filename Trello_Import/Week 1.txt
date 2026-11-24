@@ -1,0 +1,7 @@
+Setup UE 5.8.4 + repo + LFS
+Discord + Trello + #info pins
+Wireframes + input map at 1280x720
+Decide D00-D06
+2.5D look test + template decision
+Prototype: move, jump, collect
+Weekly build + playtest

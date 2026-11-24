@@ -1,0 +1,13 @@
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.log
+.vscode/
+.idea/
+
+# Never commit secrets or local webhook URLs
+.env
+*.token
+*webhook*url*
