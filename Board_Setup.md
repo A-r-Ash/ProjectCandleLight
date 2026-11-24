@@ -28,6 +28,10 @@ Pick Trello unless the repo is already on GitHub and everyone is comfortable wit
 
 Card flow: `Week N` (unclaimed) → `Doing` (claimed) → `Review / Playtest` → `Done`.
 
+## Who writes cards
+
+**Fermin (game designer) writes the user stories and creates the Trello cards.** He writes the player benefit, GDD link, labels, due date and five gates. Arashoo approves scope and dates. Fermin puts one **suggested owner** in the description — he does not assign members. The team pulls cards. Guide with examples: `USER_STORIES.md`.
+
 ## Card template
 
 **Title:** `Task name` — no owner in the title. Suggested owner goes in the description.

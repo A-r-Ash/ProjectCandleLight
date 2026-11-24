@@ -31,7 +31,7 @@ Hub + 2 puzzle rooms + 3 mechanics + candle timer + win/lose + a packaged build.
 | Jon | Systems code |
 | Jacob | **Lead 3D** — all 3D assets, rooms, kit, portals, mechanics |
 | knightsGamer | 3D pipeline + **look test** — imports, units, materials; supports Jacob |
-| Fermin | Design, 2D art, UI — decides the open questions |
+| Fermin | Design, 2D art, UI — decides the open questions; **writes user stories + Trello cards** |
 | Shags | Audio |
 | Krassus | **Pending** — no tasks until he replies |
 
@@ -41,7 +41,7 @@ Hub + 2 puzzle rooms + 3 mechanics + candle timer + win/lose + a packaged build.
 
 1. UE 5.8.4 + repo/LFS — everyone pushes a commit
 2. Discord topics + `#info` pins + Trello board (board link: https://trello.com/b/MUOJqRCI/candlelightdevelopment)
-3. Fermin: wireframes at 1280×720 + decide the open questions
+3. Fermin: wireframes at 1280×720 + decide the open questions + write the first user stories / Trello cards (`USER_STORIES.md`)
 4. Jacob (lead 3D) + knightsGamer (pipeline): **2.5D look test** — orthographic camera + lit 3D candle
 5. Prototype: move, jump, collect on one platform
 6. Template decision — see `GDD.md` §4: UE's 2D Platformer template is a **reference only**, not our project base

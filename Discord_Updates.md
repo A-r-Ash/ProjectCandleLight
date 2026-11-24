@@ -37,7 +37,7 @@ $env:DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/..."
 5. Post an update:
 
 ```powershell
-.\Docs\Discord_Post.ps1 -Message "Week 1: repo + LFS done, look test pending, Fermin deciding D01-D06."
+.\Docs\Discord_Post.ps1 -Message "Week 1: repo + LFS done, look test pending, Fermin deciding D00-D06 and writing the first Trello stories."
 ```
 
 Optional convenience: paste a prepared update from `00_START_HERE.md` or this week's Trello cards.

@@ -16,6 +16,7 @@ Working folder: `J:\UnrealProjects_Team\Project November 2026\Docs\`
 | `CONTRIBUTING.md` | How we work, claim cards, and update docs | Arashoo + team |
 | `00_START_HERE.md` | 30-second handout for Discord | Arashoo |
 | `TEAM_STATUS.md` | Visibility rules, daily status format, lead's one-pin team status | Arashoo |
+| `USER_STORIES.md` | How Fermin writes user stories and Trello cards, with worked examples | Fermin |
 | `Board_Setup.md` | Trello board structure, labels, card template, cadence | Arashoo |
 | `Board_Seed.csv` | Master board data: list, title, labels, due date, description | Arashoo |
 | `Trello_Import/` | Paste-ready card-title files + `HOW_TO_IMPORT.md` + `CARD_DETAILS.md` (labels, dates, descriptions, checklists for all 32 cards) | Arashoo |

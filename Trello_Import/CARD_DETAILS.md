@@ -11,6 +11,7 @@
 4. Copy each **Description to paste** into the card. Add the listed **Labels**, **Due date**, and **Checklist**.
 5. A card is `Done` only when all five gates pass **in the weekly build**, not just the editor.
 6. **3D rule:** Jacob is the suggested lead for **all 3D assets, rooms, kit, portals and mechanics**. knightsGamer leads the **pipeline and look test** and actively supports Jacob. Suggested owners are guidance — anyone can claim a card.
+7. **Fermin authors the stories and creates new cards.** Use `USER_STORIES.md` for the format; he never assigns members.
 
 Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-12-20**. Parking Lot and Phase 2 have no due date.
 

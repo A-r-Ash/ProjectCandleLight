@@ -8,7 +8,7 @@ Paste these into each channel's **Topic** field:
 |---|---|
 | `#general` | Team chat + daily standup (Done / Doing / Blocked). Decisions go to Docs, not chat. |
 | `#info` | READ FIRST. Repo, board, docs, UE version, timezones, commit rules. Pins only. |
-| `#design` | Locked design + link to `GDD.md` §1/§2. Threads: `parking-lot` for ideas. |
+| `#design` | Locked design + link to `GDD.md` §1/§2. Fermin drafts user stories here; accepted cards go to Trello. Threads: `parking-lot` for ideas. |
 | `#levels` | Hub + puzzle-room layouts, blockout screenshots, pacing. Threads: `Room 01`, `Room 02`. Jacob (lead 3D) + Fermin (design). |
 | `#coding` | Implementation, PRs, architecture questions. Arashoo + Jon + knightsGamer. |
 | `#art` | All visual work; Jacob leads 3D. Thread: `3d-pipeline` — Jacob + knightsGamer for scale/units/materials/imports. |
