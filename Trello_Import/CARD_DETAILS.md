@@ -31,12 +31,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — UE 5.8.4 opens the project; LFS tracks binary assets; commit + push works for each member
-- [ ] Visual — editor screenshot at 1280×720 posted in `#general`
-- [ ] Audio — no cue required for setup; confirmed no audio gate is blocked
-- [ ] UX — a new member can clone and open without asking anyone
-- [ ] Build — clean clone opens and every present member has a pushed commit
+- Claimed — owner added as the only Trello member
+- Logic — UE 5.8.4 opens the project; LFS tracks binary assets; commit + push works for each member
+- Visual — editor screenshot at 1280×720 posted in `#general`
+- Audio — no cue required for setup; confirmed no audio gate is blocked
+- UX — a new member can clone and open without asking anyone
+- Build — clean clone opens and every present member has a pushed commit
 
 ## W1-02 — Discord + Trello + #info pins
 
@@ -52,12 +52,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — channels, pins, threads, and board lists match `Discord_Setup.md` and `Board_Setup.md`
-- [ ] Visual — pinned messages readable; board URL visible without scrolling
-- [ ] Audio — no cue required; confirmed
-- [ ] UX — a new member can find GDD, board, and repo in under 10 seconds
-- [ ] Build — `#builds` channel exists and weekly build format is pinned
+- Claimed — owner added as the only Trello member
+- Logic — channels, pins, threads, and board lists match `Discord_Setup.md` and `Board_Setup.md`
+- Visual — pinned messages readable; board URL visible without scrolling
+- Audio — no cue required; confirmed
+- UX — a new member can find GDD, board, and repo in under 10 seconds
+- Build — `#builds` channel exists and weekly build format is pinned
 
 ## W1-03 — Wireframes + input map at 1280×720
 
@@ -73,12 +73,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — screen flow covers hub → room → win/lose → hub; every panel has a way out
-- [ ] Visual — no overlaps at 1280×720; HUD priority is candle → collectibles → mechanic state
-- [ ] Audio — cue points for teleport, collect, low candle, expire, exit open are marked
-- [ ] UX — a cold reader can identify the goal without explanation
-- [ ] Build — wireframes pinned in `#design` and linked in `GDD.md` §2
+- Claimed — owner added as the only Trello member
+- Logic — screen flow covers hub → room → win/lose → hub; every panel has a way out
+- Visual — no overlaps at 1280×720; HUD priority is candle → collectibles → mechanic state
+- Audio — cue points for teleport, collect, low candle, expire, exit open are marked
+- UX — a cold reader can identify the goal without explanation
+- Build — wireframes pinned in `#design` and linked in `GDD.md` §2
 
 ## W1-04 — Decide D00–D06
 
@@ -94,12 +94,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — D00–D06 all have a chosen value, date, and short reason
-- [ ] Visual — D01 count and D06 name match HUD wireframe labels
-- [ ] Audio — D02 expiry and D05 portal theme match cue list in `GDD.md` §6
-- [ ] UX — decisions are readable to a cold player at 1280×720
-- [ ] Build — `GDD.md` §1 updated before this card moves to Done
+- Claimed — owner added as the only Trello member
+- Logic — D00–D06 all have a chosen value, date, and short reason
+- Visual — D01 count and D06 name match HUD wireframe labels
+- Audio — D02 expiry and D05 portal theme match cue list in `GDD.md` §6
+- UX — decisions are readable to a cold player at 1280×720
+- Build — `GDD.md` §1 updated before this card moves to Done
 
 ## W1-05 — 2.5D look test + template decision
 
@@ -115,12 +115,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — orthographic camera, lit mesh, and point light all present in test level
-- [ ] Visual — screenshot in `#art`; candle reads clearly against dark room at 1280×720
-- [ ] Audio — low-candle light change has a placeholder cue identified
-- [ ] UX — shrinking light communicates timer without a number
-- [ ] Build — template decision written in `GDD.md` §4 and confirmed in weekly build
+- Claimed — owner added as the only Trello member
+- Logic — orthographic camera, lit mesh, and point light all present in test level
+- Visual — screenshot in `#art`; candle reads clearly against dark room at 1280×720
+- Audio — low-candle light change has a placeholder cue identified
+- UX — shrinking light communicates timer without a number
+- Build — template decision written in `GDD.md` §4 and confirmed in weekly build
 
 ## W1-06 — Prototype: move, jump, collect
 
@@ -136,12 +136,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — move, jump, collect, and counter work; no double-collect
-- [ ] Visual — candle and collectible readable at 1280×720, no grey cube
-- [ ] Audio — jump and collect cues fire once each
-- [ ] UX — a cold player collects the item without instruction
-- [ ] Build — all above confirmed in the Week 1 build
+- Claimed — owner added as the only Trello member
+- Logic — move, jump, collect, and counter work; no double-collect
+- Visual — candle and collectible readable at 1280×720, no grey cube
+- Audio — jump and collect cues fire once each
+- UX — a cold player collects the item without instruction
+- Build — all above confirmed in the Week 1 build
 
 ## W1-07 — Weekly build + playtest
 
@@ -157,12 +157,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — one owner added as the only Trello member for the build post
-- [ ] Logic — build launches with no crash
-- [ ] Visual — no missing meshes or broken materials
-- [ ] Audio — jump and collect cues fire at the right moment
-- [ ] UX — cold player can move, jump, and collect
-- [ ] Build — `v0.1` posted in `#builds` with changelog; top three issues in `#qa`
+- Claimed — one owner added as the only Trello member for the build post
+- Logic — build launches with no crash
+- Visual — no missing meshes or broken materials
+- Audio — jump and collect cues fire at the right moment
+- UX — cold player can move, jump, and collect
+- Build — `v0.1` posted in `#builds` with changelog; top three issues in `#qa`
 
 ---
 
@@ -182,12 +182,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — drain, low threshold, expiry, and pause all work; `CandleLowEntered` fires once, not twice
-- [ ] Visual — light radius visibly shrinks; warm → red shift readable at 1280×720
-- [ ] Audio — low tick and expire puff/descending tone fire once each
-- [ ] UX — cold player can tell time is short without reading a number
-- [ ] Build — verified in Week 2 build, not editor only
+- Claimed — owner added as the only Trello member
+- Logic — drain, low threshold, expiry, and pause all work; `CandleLowEntered` fires once, not twice
+- Visual — light radius visibly shrinks; warm → red shift readable at 1280×720
+- Audio — low tick and expire puff/descending tone fire once each
+- UX — cold player can tell time is short without reading a number
+- Build — verified in Week 2 build, not editor only
 
 ## W2-02 — Collectibles + X/Y counter
 
@@ -203,12 +203,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — correct count, no double-collect, counter resets on room entry
-- [ ] Visual — flare + sparkle readable; HUD counter never overlaps at 1280×720
-- [ ] Audio — chime fires exactly once per pickup
-- [ ] UX — goal count readable on entry (0/Y)
-- [ ] Build — required amount opens exit in Week 2 build
+- Claimed — owner added as the only Trello member
+- Logic — correct count, no double-collect, counter resets on room entry
+- Visual — flare + sparkle readable; HUD counter never overlaps at 1280×720
+- Audio — chime fires exactly once per pickup
+- UX — goal count readable on entry (0/Y)
+- Build — required amount opens exit in Week 2 build
 
 ## W2-03 — Hub map + teleport portals
 
@@ -224,12 +224,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — portal → Room 01 → hub works; cleared state persists across level opens
-- [ ] Visual — portal types visually distinct and labelled at 1280×720
-- [ ] Audio — teleport whoosh fires on entry and return
-- [ ] UX — player understands portals are level choices without text
-- [ ] Build — full transition verified in Week 2 build
+- Claimed — owner added as the only Trello member
+- Logic — portal → Room 01 → hub works; cleared state persists across level opens
+- Visual — portal types visually distinct and labelled at 1280×720
+- Audio — teleport whoosh fires on entry and return
+- UX — player understands portals are level choices without text
+- Build — full transition verified in Week 2 build
 
 ## W2-04 — Room 01 + moving platform
 
@@ -245,12 +245,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — all collectibles reachable; moving platform path/speed from data asset
-- [ ] Visual — final-style kit; silhouettes readable against dark background
-- [ ] Audio — platform movement and switch cues have placeholders
-- [ ] UX — cold player asks no "what do I do?" in first 30 seconds
-- [ ] Build — Room 01 clearable in Week 2 build
+- Claimed — owner added as the only Trello member
+- Logic — all collectibles reachable; moving platform path/speed from data asset
+- Visual — final-style kit; silhouettes readable against dark background
+- Audio — platform movement and switch cues have placeholders
+- UX — cold player asks no "what do I do?" in first 30 seconds
+- Build — Room 01 clearable in Week 2 build
 
 ## W2-05 — Room 01 audio cues
 
@@ -266,12 +266,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — cues bound to `RoomEntered`, `CollectibleCollected`, `CandleLowEntered`
-- [ ] Visual — no UI/audio desync visible in build
-- [ ] Audio — three cues identifiable and each fires once
-- [ ] UX — pickup and low-candle cues readable with eyes closed
-- [ ] Build — verified in Week 2 build
+- Claimed — owner added as the only Trello member
+- Logic — cues bound to `RoomEntered`, `CollectibleCollected`, `CandleLowEntered`
+- Visual — no UI/audio desync visible in build
+- Audio — three cues identifiable and each fires once
+- UX — pickup and low-candle cues readable with eyes closed
+- Build — verified in Week 2 build
 
 ## W2-06 — Weekly build + playtest
 
@@ -287,12 +287,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — one owner added as the only Trello member for the build post
-- [ ] Logic — full loop works without developer help
-- [ ] Visual — portal, candle, collectibles all readable
-- [ ] Audio — teleport, collect, low candle fire once each
-- [ ] UX — cold player clears Room 01
-- [ ] Build — `v0.2` posted with changelog; top three issues in `#qa`
+- Claimed — one owner added as the only Trello member for the build post
+- Logic — full loop works without developer help
+- Visual — portal, candle, collectibles all readable
+- Audio — teleport, collect, low candle fire once each
+- UX — cold player clears Room 01
+- Build — `v0.2` posted with changelog; top three issues in `#qa`
 
 ---
 
@@ -312,12 +312,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — switch → gate link works and resets on room entry
-- [ ] Visual — on/off states distinct at 1280×720
-- [ ] Audio — click + gate rumble fire once each
-- [ ] UX — cold player understands cause and effect without prompt
-- [ ] Build — verified in Week 3 build
+- Claimed — owner added as the only Trello member
+- Logic — switch → gate link works and resets on room entry
+- Visual — on/off states distinct at 1280×720
+- Audio — click + gate rumble fire once each
+- UX — cold player understands cause and effect without prompt
+- Build — verified in Week 3 build
 
 ## W3-02 — In-room teleport pad
 
@@ -333,12 +333,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — pad → destination works; no loop-back collision bug
-- [ ] Visual — in-room pad clearly different from hub portal
-- [ ] Audio — short teleport cue fires once
-- [ ] UX — destination readable before use
-- [ ] Build — verified in Week 3 build
+- Claimed — owner added as the only Trello member
+- Logic — pad → destination works; no loop-back collision bug
+- Visual — in-room pad clearly different from hub portal
+- Audio — short teleport cue fires once
+- UX — destination readable before use
+- Build — verified in Week 3 build
 
 ## W3-03 — Room 02 + collectibles
 
@@ -354,12 +354,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — room solvable and all collectibles reachable
-- [ ] Visual — final-style materials; mechanics distinguishable from decoration
-- [ ] Audio — mechanic cues present
-- [ ] UX — no text needed to solve; pacing fair with candle running
-- [ ] Build — Room 02 clearable in Week 3 build
+- Claimed — owner added as the only Trello member
+- Logic — room solvable and all collectibles reachable
+- Visual — final-style materials; mechanics distinguishable from decoration
+- Audio — mechanic cues present
+- UX — no text needed to solve; pacing fair with candle running
+- Build — Room 02 clearable in Week 3 build
 
 ## W3-04 — Win / lose / pause panels
 
@@ -375,12 +375,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — all buttons work; no stuck state; input released on panel close
-- [ ] Visual — no overlaps at 1280×720; consistent style
-- [ ] Audio — UI confirm cue fires once
-- [ ] UX — every panel has an obvious exit
-- [ ] Build — all panels verified in Week 3 build
+- Claimed — owner added as the only Trello member
+- Logic — all buttons work; no stuck state; input released on panel close
+- Visual — no overlaps at 1280×720; consistent style
+- Audio — UI confirm cue fires once
+- UX — every panel has an obvious exit
+- Build — all panels verified in Week 3 build
 
 ## W3-05 — Candle expiry + retry (D02)
 
@@ -396,12 +396,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — three retries clean; counters and mechanics reset
-- [ ] Visual — fade + lose panel readable
-- [ ] Audio — puff + descending tone fires once per expiry
-- [ ] UX — player understands they failed and how to retry
-- [ ] Build — verified three times in Week 3 build
+- Claimed — owner added as the only Trello member
+- Logic — three retries clean; counters and mechanics reset
+- Visual — fade + lose panel readable
+- Audio — puff + descending tone fires once per expiry
+- UX — player understands they failed and how to retry
+- Build — verified three times in Week 3 build
 
 ## W3-06 — Weekly build + playtest
 
@@ -417,12 +417,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — one owner added as the only Trello member for the build post
-- [ ] Logic — both rooms and all mechanics work end-to-end
-- [ ] Visual — final-style assets everywhere
-- [ ] Audio — all Must cues fire once
-- [ ] UX — cold player completes a room without help
-- [ ] Build — `v0.3` posted; feature freeze announced in `#general`
+- Claimed — one owner added as the only Trello member for the build post
+- Logic — both rooms and all mechanics work end-to-end
+- Visual — final-style assets everywhere
+- Audio — all Must cues fire once
+- UX — cold player completes a room without help
+- Build — `v0.3` posted; feature freeze announced in `#general`
 
 ---
 
@@ -442,12 +442,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — zero crashes and zero soft-locks in a full run
-- [ ] Visual — no missing assets after repeated level loads
-- [ ] Audio — no cue fires twice after repeated retries
-- [ ] UX — no stuck panels or trapped player positions
-- [ ] Build — verified in Week 4 build
+- Claimed — owner added as the only Trello member
+- Logic — zero crashes and zero soft-locks in a full run
+- Visual — no missing assets after repeated level loads
+- Audio — no cue fires twice after repeated retries
+- UX — no stuck panels or trapped player positions
+- Build — verified in Week 4 build
 
 ## W4-02 — Balance pass
 
@@ -463,12 +463,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — no code changes, data values only
-- [ ] Visual — timing still readable at 1280×720
-- [ ] Audio — low-candle cue still has time to be heard
-- [ ] UX — three cold players clear both rooms
-- [ ] Build — tuned values verified in Week 4 build
+- Claimed — owner added as the only Trello member
+- Logic — no code changes, data values only
+- Visual — timing still readable at 1280×720
+- Audio — low-candle cue still has time to be heard
+- UX — three cold players clear both rooms
+- Build — tuned values verified in Week 4 build
 
 ## W4-03 — Onboarding check
 
@@ -484,12 +484,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — goal understood without instruction
-- [ ] Visual — first collectible visible immediately
-- [ ] Audio — first collect chime heard within 10 seconds
-- [ ] UX — zero "what do I do?" questions from three cold players
-- [ ] Build — verified in Week 4 build
+- Claimed — owner added as the only Trello member
+- Logic — goal understood without instruction
+- Visual — first collectible visible immediately
+- Audio — first collect chime heard within 10 seconds
+- UX — zero "what do I do?" questions from three cold players
+- Build — verified in Week 4 build
 
 ## W4-04 — Packaging + clean-machine test
 
@@ -505,12 +505,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — packaged exe launches and reaches both rooms
-- [ ] Visual — correct resolution and no missing assets
-- [ ] Audio — all cue assets included in package
-- [ ] UX — input works with keyboard/mouse from a cold start
-- [ ] Build — clean-machine result recorded in `#builds`
+- Claimed — owner added as the only Trello member
+- Logic — packaged exe launches and reaches both rooms
+- Visual — correct resolution and no missing assets
+- Audio — all cue assets included in package
+- UX — input works with keyboard/mouse from a cold start
+- Build — clean-machine result recorded in `#builds`
 
 ## W4-05 — Final playable build in #builds
 
@@ -526,12 +526,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — owner added as the only Trello member
-- [ ] Logic — full hub → room → results → hub loop passes
-- [ ] Visual — final-style assets everywhere
-- [ ] Audio — all Must cues fire once
-- [ ] UX — onboarding check passed
-- [ ] Build — final build posted in `#builds` and pinned
+- Claimed — owner added as the only Trello member
+- Logic — full hub → room → results → hub loop passes
+- Visual — final-style assets everywhere
+- Audio — all Must cues fire once
+- UX — onboarding check passed
+- Build — final build posted in `#builds` and pinned
 
 ## W4-06 — MVP demo + phase 2 feedback
 
@@ -547,12 +547,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 
 **Checklist:**
 
-- [ ] Claimed — one owner added as the only Trello member for the feedback log
-- [ ] Logic — feedback sorted into keep / change / park
-- [ ] Visual — screenshots of best and worst framing posted
-- [ ] Audio — missing or duplicate cues logged
-- [ ] UX — cold-player notes logged from `#qa`
-- [ ] Build — accepted ideas written into `GDD.md` §7 before cards move to Phase 2
+- Claimed — one owner added as the only Trello member for the feedback log
+- Logic — feedback sorted into keep / change / park
+- Visual — screenshots of best and worst framing posted
+- Audio — missing or duplicate cues logged
+- UX — cold-player notes logged from `#qa`
+- Build — accepted ideas written into `GDD.md` §7 before cards move to Phase 2
 
 ---
 
@@ -562,11 +562,11 @@ These have **no due date**. Promotion rule: propose in `#design` → write into 
 
 Use this checklist for every parking-lot card:
 
-- [ ] Idea written in `GDD.md` §7 with proposer and date
-- [ ] Team accepts it in `#design`
-- [ ] Updated in `GDD.md` §1 if it changes the game
-- [ ] Trello card created in a sprint list
-- [ ] Claimed by one member before moving to `Doing`
+- Idea written in `GDD.md` §7 with proposer and date
+- Team accepts it in `#design`
+- Updated in `GDD.md` §1 if it changes the game
+- Trello card created in a sprint list
+- Claimed by one member before moving to `Doing`
 
 ## P-01 — More hub portals / rooms
 
@@ -604,11 +604,11 @@ These have **no due date** and must not enter a sprint until after MVP acceptanc
 
 Use this checklist for every Phase 2 card:
 
-- [ ] MVP final build accepted first
-- [ ] Idea written in `GDD.md` §7
-- [ ] Owner claimed before work starts
-- [ ] Five gates planned in the card
-- [ ] Not started during MVP Weeks 1–4
+- MVP final build accepted first
+- Idea written in `GDD.md` §7
+- Owner claimed before work starts
+- Five gates planned in the card
+- Not started during MVP Weeks 1–4
 
 ## PH-01 — Additional puzzle rooms
 

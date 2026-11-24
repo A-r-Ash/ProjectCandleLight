@@ -332,15 +332,15 @@ Owner: **Shags**. Every "Must" cue must be audible in the weekly build.
 
 | Event | Cue | Priority | Status |
 |---|---|---|---|
-| Room entered / teleport | whoosh | Must | [ ] |
-| Collectible collected | bright chime, satisfying rise | Must | [ ] |
-| Jump | soft scuff | Must | [ ] |
-| Candle low (<25%) | faint tick / wax crackle | Should | [ ] |
-| Switch activated | click + gate rumble | Must | [ ] |
-| Exit portal opens | rising tone | Must | [ ] |
-| Candle expired | sharp puff + descending tone | Must | [ ] |
-| Level complete | warm resolve | Must | [ ] |
-| UI confirm | simple, consistent | Should | [ ] |
+| Room entered / teleport | whoosh | Must | TBD |
+| Collectible collected | bright chime, satisfying rise | Must | TBD |
+| Jump | soft scuff | Must | TBD |
+| Candle low (<25%) | faint tick / wax crackle | Should | TBD |
+| Switch activated | click + gate rumble | Must | TBD |
+| Exit portal opens | rising tone | Must | TBD |
+| Candle expired | sharp puff + descending tone | Must | TBD |
+| Level complete | warm resolve | Must | TBD |
+| UI confirm | simple, consistent | Should | TBD |
 
 ### Music
 

@@ -44,11 +44,11 @@ Blocked by: [card link or none]
 ```
 
 **Checklist (one item per gate):**
-- [ ] Logic
-- [ ] Visual
-- [ ] Audio
-- [ ] UX
-- [ ] Build
+- Logic
+- Visual
+- Audio
+- UX
+- Build
 
 **Member field = OWNER.** None while available; the claimer adds themselves as the **only Trello member**. Other contributors go in the description as `Helpers:` — do not add them as members, or the "Member = me" filter becomes wrong. **Due date:** end of the week.
 
