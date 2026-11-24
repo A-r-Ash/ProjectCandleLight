@@ -13,6 +13,7 @@ Working folder: `J:\UnrealProjects_Team\Project November 2026\Docs\`
 | File | Purpose | Owner(s) |
 |---|---|---|
 | `GDD.md` | **Official GDD v1.0** — the whole game in one document | Arashoo + team |
+| `GDD_BLUEPRINT_3_PERSON.md` | Reusable GDD blueprint for a 3-person team — shareable template | Arashoo |
 | `CONTRIBUTING.md` | How we work, claim cards, and update docs | Arashoo + team |
 | `00_START_HERE.md` | 30-second handout for Discord | Arashoo |
 | `TEAM_STATUS.md` | Visibility rules, daily status format, one-pin team status | Arashoo |
