@@ -11,20 +11,21 @@
 | What work is still free to take? | Trello `Week 1` … `Week 4` lists — cards there are unclaimed |
 | What did we decide, and why? | `GDD.md` — pinned in `#info` |
 
-If any answer is unclear, the system is broken — say so in `#general` and the lead fixes it that day.
+If any answer is unclear, the system is broken — say so in `#general` and Arashoo fixes it that day.
 
 ## The rules
 
 1. **Pull, don't push.** Cards in `Week 1`–`Week 4` are **available to anyone**. Claim one by adding yourself as its only Trello member, then move it to `Doing`. **The Trello member field is the owner** — the avatar on the card is how everyone sees who owns it. Helpers go in the description, not as members.
 2. **Everything the team needs to know lives in one of three places:** Trello (who/by when), Docs (what/why), Discord (today's status + blockers).
 3. **WIP limit 2 cards per person in `Doing`.** Finish or unblock before pulling more.
-4. **If blocked at standup**, post the card link + who can help. The lead reassigns or removes the blocker the same day.
+4. **If blocked at standup**, post the card link + who can help. Arashoo clears the blocker the same day.
 5. **No work without a card.** A card in `Doing` must have exactly one member and a due date. Finishing early? Pull the next free card. Don't invent work.
 6. **Decisions in chat or voice don't count** until written into Docs within 24 hours. Then pin the link.
 7. **New ideas go to Parking Lot**, never straight into a sprint.
 8. **Jacob is the lead 3D owner** — all 3D meshes, rooms, kit, portals and mechanics are suggested to him. **knightsGamer owns the 3D pipeline and look test** and actively supports Jacob; he is not removed from 3D work.
-9. **Fermin writes the user stories and creates the Trello cards.** He puts a suggested owner in the description; he does not assign members. Arashoo approves scope and due dates. Guide: `USER_STORIES.md`.
-10. **Krassus is pending** — shown as inactive until he replies. No cards reserved for him.
+9. **Fermin writes the user stories and creates the Trello cards.** He puts a suggested owner in the description; he does not assign members. Scope and due dates are agreed by the team. Guide: `USER_STORIES.md`.
+10. **If a decision has to be made, Arashoo makes the call.** This is an action to unblock work, not a written role or title.
+11. **Krassus is pending** — shown as inactive until he replies. No cards reserved for him.
 
 ## Daily personal status — each member posts in `#general`
 
@@ -38,7 +39,7 @@ Blocked: [none / card link + who can unblock]
 
 Post 2–3× per week (more often if asked). Async is fine across timezones.
 
-## Lead's daily team pin — one message, edited each day
+## Daily team pin — one message, edited each day
 
 ```
 TEAM STATUS — Week [N] — updated [date/time]
@@ -63,7 +64,7 @@ Docs:     [00_START_HERE.md link]
 |---|---|---|
 | Start of week | Pull the week's cards, confirm owners | Trello + voice |
 | 2–3× per week | Personal status with card links | `#general` |
-| Daily | Lead edits the team-status pin | `#general` |
+| Daily | Arashoo edits the team-status pin | `#general` |
 | End of week | Demo the build, move cards to Done, retro card | `#builds` + Trello |
 | Anytime | Blockers and decisions | `#general` → Docs |
 
@@ -79,7 +80,7 @@ Copy this into Trello as the current `Doing` cards. Until the board exists, this
 | knightsGamer | 3D pipeline + 2.5D look test — orthographic camera, units, import and lit 3D candle | Screenshot in `#art`; template decision written into `GDD.md` §4; Jacob's meshes imported correctly |
 | Fermin | Wireframes + decide D00–D06 + write the first user stories / Trello cards | Hub, room HUD, win, lose pinned in `#design`; seven decisions in `GDD.md` §1; first cards follow `USER_STORIES.md` |
 | Shags | Cue list confirm + placeholder teleport / collect sounds | `GDD.md` §6 has owners and cue names; placeholders fire in build |
-| Krassus | **PENDING — no task** | He replies in `#general`; then the lead assigns one Week 1 card |
+| Krassus | **PENDING — no task** | He replies in `#general`; then the team agrees on one Week 1 card |
 
 ## Why no automatic Discord plugin is needed
 

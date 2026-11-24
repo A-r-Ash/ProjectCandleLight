@@ -15,7 +15,7 @@ Working folder: `J:\UnrealProjects_Team\Project November 2026\Docs\`
 | `GDD.md` | **Official GDD v1.0** — the whole game in one document | Arashoo + team |
 | `CONTRIBUTING.md` | How we work, claim cards, and update docs | Arashoo + team |
 | `00_START_HERE.md` | 30-second handout for Discord | Arashoo |
-| `TEAM_STATUS.md` | Visibility rules, daily status format, lead's one-pin team status | Arashoo |
+| `TEAM_STATUS.md` | Visibility rules, daily status format, one-pin team status | Arashoo |
 | `USER_STORIES.md` | How Fermin writes user stories and Trello cards, with worked examples | Fermin |
 | `Board_Setup.md` | Trello board structure, labels, card template, cadence | Arashoo |
 | `Board_Seed.csv` | Master board data: list, title, labels, due date, description | Arashoo |

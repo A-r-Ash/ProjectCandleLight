@@ -1,6 +1,6 @@
 List,Card Title,Labels,Due Date,Description
 Week 1,"Setup UE 5.8.4 + repo + LFS","Code,W1,Must",2026-11-29,"Suggested owner: Arashoo + Jon. Plan task #1. Every present member pushes a commit. Five-gate test in Docs/GDD.md §5. Claim by adding yourself as a Trello member, then move to Doing."
-Week 1,"Discord + Trello + #info pins","Lead,W1,Must",2026-11-29,"Suggested owner: Arashoo. Plan task #2. Board URL goes in the #info pin: https://trello.com/b/MUOJqRCI/candlelightdevelopment. Match Docs/Discord_Setup.md."
+Week 1,"Discord + Trello + #info pins","Coordination,W1,Must",2026-11-29,"Suggested owner: Arashoo. Plan task #2. Board URL goes in the #info pin: https://trello.com/b/MUOJqRCI/candlelightdevelopment. Match Docs/Discord_Setup.md."
 Week 1,"Wireframes + input map at 1280x720","Design,2D Art,W1,Must",2026-11-29,"Suggested owner: Fermin. Plan task #3. Hub, room HUD, win, lose. Pin in #design."
 Week 1,"Decide D00-D06","Decision,Design,W1,Must",2026-11-29,"Suggested owner: Fermin. Plan task #4. Title, collectibles, expiry, room count, mechanics, portal theme, collectible name. Write into Docs/GDD.md §1."
 Week 1,"2.5D look test + template decision","Pipeline,3D Art,W1,Must",2026-11-29,"Suggested owner: Jacob (lead 3D) + knightsGamer (pipeline). Plan task #5. Jacob provides the lit 3D candle mesh; knightsGamer sets units, import and materials and runs the orthographic-camera test. UE 2D Platformer template is reference only. Record in Docs/GDD.md §4."

@@ -30,7 +30,7 @@ Card flow: `Week N` (unclaimed) → `Doing` (claimed) → `Review / Playtest` �
 
 ## Who writes cards
 
-**Fermin (game designer) writes the user stories and creates the Trello cards.** He writes the player benefit, GDD link, labels, due date and five gates. Arashoo approves scope and dates. Fermin puts one **suggested owner** in the description — he does not assign members. The team pulls cards. Guide with examples: `USER_STORIES.md`.
+**Fermin (game designer) writes the user stories and creates the Trello cards.** He writes the player benefit, GDD link, labels, due date and five gates. Scope and dates are agreed by the team; Arashoo makes the call if needed. Fermin puts one **suggested owner** in the description — he does not assign members. The team pulls cards. Guide with examples: `USER_STORIES.md`.
 
 ## Card template
 
@@ -58,7 +58,7 @@ Blocked by: [card link or none]
 
 ## Labels (keep it under 15)
 
-- **Role:** `Design`, `2D Art`, `3D Art`, `Pipeline`, `Code`, `Audio`, `QA`, `Lead`
+- **Role:** `Design`, `2D Art`, `3D Art`, `Pipeline`, `Code`, `Audio`, `QA`, `Coordination`
 - **Week:** `W1`, `W2`, `W3`, `W4`, `Phase2`
 - **Type:** `Must`, `Should`, `Bug`, `Blocked`, `Decision`
 

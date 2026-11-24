@@ -27,7 +27,7 @@ Hub + 2 puzzle rooms + 3 mechanics + candle timer + win/lose + a packaged build.
 
 | Person | Owns |
 |---|---|
-| Arashoo | Lead + core code |
+| Arashoo | Core code |
 | Jon | Systems code |
 | Jacob | **Lead 3D** — all 3D assets, rooms, kit, portals, mechanics |
 | knightsGamer | 3D pipeline + **look test** — imports, units, materials; supports Jacob |

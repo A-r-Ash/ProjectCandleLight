@@ -43,7 +43,7 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 ## W1-02 — Discord + Trello + #info pins
 
 - **List:** `Week 1`
-- **Labels:** `Lead`, `W1`, `Must`
+- **Labels:** `Coordination`, `W1`, `Must`
 - **Due:** 2026-11-29
 - **Suggested owner:** Arashoo
 - **Helpers:** none

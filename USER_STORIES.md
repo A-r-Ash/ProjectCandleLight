@@ -1,6 +1,6 @@
 # User stories & Trello cards — Fermin
 
-**Story author:** Fermin (game designer). **Scope/date approval:** Arashoo (lead).
+**Story author:** Fermin (game designer). **Scope/dates:** agreed by the team; Arashoo makes the call if needed.
 **Board:** https://trello.com/b/MUOJqRCI/candlelightdevelopment · **Rules:** `GDD.md` §5 · `Board_Setup.md`
 
 Yes — this is a game designer's job. Fermin turns the GDD into **player-facing stories** and puts them on Trello. The team still **pulls** the work; Fermin does not assign people.

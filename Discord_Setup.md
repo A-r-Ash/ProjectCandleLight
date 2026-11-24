@@ -33,7 +33,7 @@ Concept: Captain Toad-style puzzle rooms. Collect light before the candle burns 
 30-second handout: Docs/00_START_HERE.md
 
 TEAM / TIMEZONES (all times local)
-Arashoo (lead, gameplay) — [TZ, hours]
+Arashoo (gameplay) — [TZ, hours]
 Jon (programmer) — [TZ, hours]
 Jacob (lead 3D — all 3D art/assets, rooms, kit, mechanics) — [TZ, hours]
 knightsGamer (3D pipeline + look test, supports Jacob) — [TZ, hours]

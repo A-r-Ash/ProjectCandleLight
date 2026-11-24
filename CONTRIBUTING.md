@@ -13,7 +13,7 @@ This repository is the **transparent record of the project**. Everyone can see w
 
 ## Rules
 
-- Fermin writes the user stories and creates the Trello cards (`USER_STORIES.md`). Arashoo approves scope and dates. The team claims cards; nobody is assigned.
+- Fermin writes the user stories and creates the Trello cards (`USER_STORIES.md`). Scope and dates are agreed by the team; Arashoo makes the call if needed. The team claims cards; nobody is assigned.
 - No work without a Trello card.
 - Week lists are unclaimed work. Anyone may claim a card by adding themselves as the **only Trello member**, then moving it to `Doing`.
 - WIP limit: 2 cards per person in `Doing`.
@@ -30,4 +30,4 @@ This repository is the **transparent record of the project**. Everyone can see w
 
 ## Team
 
-Arashoo (lead) · Jon (code) · Jacob (lead 3D — all 3D assets, rooms, kit and mechanics) · knightsGamer (3D pipeline + look test, supports Jacob) · Fermin (design/UI) · Shags (audio) · Krassus (pending — no tasks until he replies).
+Arashoo (code) · Jon (code) · Jacob (lead 3D — all 3D assets, rooms, kit and mechanics) · knightsGamer (3D pipeline + look test, supports Jacob) · Fermin (design/UI) · Shags (audio) · Krassus (pending — no tasks until he replies).

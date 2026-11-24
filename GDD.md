@@ -1,7 +1,7 @@
 # CANDLELIGHT — Game Design Document
 
 **Status: OFFICIAL · v1.0 · agreed 24 Nov 2026.**
-**Document owner: Arashoo (lead).** This is the single source of truth. The former `00`–`07` documents were merged into this file and deleted. If an old file or Discord message disagrees with this file, **this file wins**.
+**Document owner: Arashoo.** This is the single source of truth. The former `00`–`07` documents were merged into this file and deleted. If an old file or Discord message disagrees with this file, **this file wins**.
 
 **Live GDD link:** `[TBD — paste the Google Docs URL here and pin it in #info]`
 
@@ -9,7 +9,7 @@
 
 **GitHub docs repo:** https://github.com/A-r-Ash/ProjectCandleLight
 
-**Team:** Arashoo (lead + core code) · Jon (systems code) · **Jacob (lead 3D — owns all 3D art/assets, rooms, kit and mechanics)** · knightsGamer (3D pipeline + look test — imports, units, materials and template decision; supports Jacob) · Fermin (design + 2D art + UI — **writes user stories and Trello cards**) · Shags (audio) · Krassus (pending — no tasks until he replies).
+**Team:** Arashoo (core code) · Jon (systems code) · **Jacob (lead 3D — owns all 3D art/assets, rooms, kit and mechanics)** · knightsGamer (3D pipeline + look test — imports, units, materials and template decision; supports Jacob) · Fermin (design + 2D art + UI — **writes user stories and Trello cards**) · Shags (audio) · Krassus (pending — no tasks until he replies).
 
 Working title: **Candlelight** (Fermin may confirm the final name — D00).
 
@@ -23,7 +23,7 @@ Working title: **Candlelight** (Fermin may confirm the final name — D00).
 
 **MVP scope:** Hub + 2 puzzle rooms + 3 mechanics + candle timer + win/lose + packaged build.
 
-**Owners:** Arashoo = lead + core code · Jon = systems code · **Jacob = lead 3D (all 3D art/assets, rooms, kit, portals, mechanics)** · **knightsGamer = 3D pipeline + look test, supports Jacob** · **Fermin = design + 2D art + UI, story author (writes user stories and Trello cards; decides open questions)** · Shags = audio · **Krassus = pending, no tasks until he replies**.
+**Owners:** Arashoo = core code · Jon = systems code · **Jacob = lead 3D (all 3D art/assets, rooms, kit, portals, mechanics)** · **knightsGamer = 3D pipeline + look test, supports Jacob** · **Fermin = design + 2D art + UI, story author (writes user stories and Trello cards; decides open questions)** · Shags = audio · **Krassus = pending, no tasks until he replies**.
 
 **Where things live:**
 
@@ -273,7 +273,7 @@ Goal: **playable Windows build** — hub + 2 rooms + 3 mechanics + candle + win/
 
 This is a **pull board**: names below are **suggested owners only**. Any member may claim any card, add themselves as its only Trello member, and move it to `Doing`.
 
-**Fermin authors the stories and creates the Trello cards.** He writes the "As a player… so that…" benefit, the GDD link, labels, due date and five gates; Arashoo approves scope and dates. Fermin does **not** assign work — the team pulls it. How-to and examples: `USER_STORIES.md`.
+**Fermin authors the stories and creates the Trello cards.** He writes the "As a player… so that…" benefit, the GDD link, labels, due date and five gates. Scope and dates are agreed by the team; Arashoo makes the call if needed. Fermin does **not** assign work — the team pulls it. How-to and examples: `USER_STORIES.md`.
 
 ### Week 1 — setup, look test, prototype
 
