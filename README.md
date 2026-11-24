@@ -1,4 +1,4 @@
-# Candlelight — Project Docs Index
+# ProjectCandleLight — Candlelight Docs Index
 
 **Official single source of truth:** `GDD.md` — one complete document covering concept, UX, art, tech, plan, audio, backlog, and designer blueprint. Pin it in `#info`.
 
