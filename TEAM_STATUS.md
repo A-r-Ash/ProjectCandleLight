@@ -22,7 +22,8 @@ If any answer is unclear, the system is broken — say so in `#general` and the 
 5. **No work without a card.** A card in `Doing` must have exactly one member and a due date. Finishing early? Pull the next free card. Don't invent work.
 6. **Decisions in chat or voice don't count** until written into Docs within 24 hours. Then pin the link.
 7. **New ideas go to Parking Lot**, never straight into a sprint.
-8. **Krassus is pending** — shown as inactive until he replies. No cards reserved for him.
+8. **Jacob is the lead 3D owner** — all 3D meshes, rooms, kit, portals and mechanics are suggested to him. **knightsGamer owns the 3D pipeline and look test** and actively supports Jacob; he is not removed from 3D work.
+9. **Krassus is pending** — shown as inactive until he replies. No cards reserved for him.
 
 ## Daily personal status — each member posts in `#general`
 
@@ -43,8 +44,8 @@ TEAM STATUS — Week [N] — updated [date/time]
 
 Arashoo:           [card] — one line
 Jon:           [card] — one line
-knightsGamer:  [card] — one line
 Jacob:         [card] — one line
+knightsGamer:  [card] — one line
 Fermin:        [card] — one line
 Shags:         [card] — one line
 Krassus:       PENDING — no reply yet
@@ -73,8 +74,8 @@ Copy this into Trello as the current `Doing` cards. Until the board exists, this
 |---|---|---|
 | Arashoo | Setup UE 5.8.4 + repo + LFS | Every present member has pushed a commit |
 | Jon | Move / jump / collect prototype on one platform | All five gates pass in the weekly build |
-| knightsGamer | 2.5D look test — orthographic camera + lit 3D candle | Screenshot in `#art`; template decision written into `GDD.md` §4 |
-| Jacob | Modular puzzle-room kit blockout (walls, floor, platform) | Pieces snapped together at 1280×720 with final-style materials |
+| Jacob | **Lead 3D:** modular puzzle-room kit blockout (walls, floor, platform) + look-test candle mesh | Pieces snapped together at 1280×720 with final-style materials; candle in look test |
+| knightsGamer | 3D pipeline + 2.5D look test — orthographic camera, units, import and lit 3D candle | Screenshot in `#art`; template decision written into `GDD.md` §4; Jacob's meshes imported correctly |
 | Fermin | Wireframes + decide D01–D06 | Hub, room HUD, win, lose pinned in `#design`; seven decisions written into `GDD.md` §1 |
 | Shags | Cue list confirm + placeholder teleport / collect sounds | `GDD.md` §6 has owners and cue names; placeholders fire in build |
 | Krassus | **PENDING — no task** | He replies in `#general`; then the lead assigns one Week 1 card |

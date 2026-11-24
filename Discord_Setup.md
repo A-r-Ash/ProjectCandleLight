@@ -9,9 +9,9 @@ Paste these into each channel's **Topic** field:
 | `#general` | Team chat + daily standup (Done / Doing / Blocked). Decisions go to Docs, not chat. |
 | `#info` | READ FIRST. Repo, board, docs, UE version, timezones, commit rules. Pins only. |
 | `#design` | Locked design + link to `GDD.md` §1/§2. Threads: `parking-lot` for ideas. |
-| `#levels` | Hub + puzzle-room layouts, blockout screenshots, pacing. Threads: `Room 01`, `Room 02`. Fermin + Jacob. |
+| `#levels` | Hub + puzzle-room layouts, blockout screenshots, pacing. Threads: `Room 01`, `Room 02`. Jacob (lead 3D) + Fermin (design). |
 | `#coding` | Implementation, PRs, architecture questions. Arashoo + Jon + knightsGamer. |
-| `#art` | All visual work. Thread: `3d-pipeline` for scale/units/materials/imports. |
+| `#art` | All visual work; Jacob leads 3D. Thread: `3d-pipeline` — Jacob + knightsGamer for scale/units/materials/imports. |
 | `#audio` | Shags. Cue list (`GDD.md` §6), music states, sources. |
 | `#qa` | Threads: `bugs` (one thread per bug) and `playtests` (one per session). |
 | `#builds` | Weekly build drop: version + changelog + "play this". |
@@ -35,8 +35,8 @@ Concept: Captain Toad-style puzzle rooms. Collect light before the candle burns 
 TEAM / TIMEZONES (all times local)
 Arashoo (lead, gameplay) — [TZ, hours]
 Jon (programmer) — [TZ, hours]
-knightsGamer (3D + pipeline, junior code) — [TZ, hours]
-Jacob (3D environment) — [TZ, hours]
+Jacob (lead 3D — all 3D art/assets, rooms, kit, mechanics) — [TZ, hours]
+knightsGamer (3D pipeline + look test, supports Jacob) — [TZ, hours]
 Fermin (design, 2D, UI) — [TZ, hours]
 Shags (audio) — [TZ, hours]
 Krassus (all-rounder) — [TZ, hours] — STATUS: [CONFIRMED / UNCONFIRMED]

@@ -87,7 +87,7 @@ If a player dies without seeing the telegraph, the telegraph failed, not the pla
 
 ## Dependencies
 
-Art: knightsGamer (mesh, telegraph pose) · Audio: Shags (4 cues) · Code: Jon + you (AI, collision)
+Art: Jacob (mesh, telegraph pose) · Pipeline: knightsGamer (import, scale, materials) · Audio: Shags (4 cues) · Code: Jon + Arashoo (AI, collision)
 
 ## Open decisions
 

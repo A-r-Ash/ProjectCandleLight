@@ -10,6 +10,7 @@
 3. Other contributors go in the card description as `Helpers: [names]` — not as Trello members.
 4. Copy each **Description to paste** into the card. Add the listed **Labels**, **Due date**, and **Checklist**.
 5. A card is `Done` only when all five gates pass **in the weekly build**, not just the editor.
+6. **3D rule:** Jacob is the suggested lead for **all 3D assets, rooms, kit, portals and mechanics**. knightsGamer leads the **pipeline and look test** and actively supports Jacob. Suggested owners are guidance — anyone can claim a card.
 
 Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-12-20**. Parking Lot and Phase 2 have no due date.
 
@@ -106,12 +107,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 - **List:** `Week 1`
 - **Labels:** `Pipeline`, `3D Art`, `W1`, `Must`
 - **Due:** 2026-11-29
-- **Suggested owner:** knightsGamer
-- **Helpers:** Jacob, Arashoo
+- **Suggested owner:** Jacob (lead 3D) + knightsGamer (pipeline)
+- **Helpers:** Arashoo
 
 **Description to paste:**
 
-> Import one lit 3D candle mesh into a dark room with an **orthographic side camera** and a point light attached to the flame. Set units (1 unit = 1 cm), material, and pivot at base. Screenshot at **1280×720** and post in `#art`. Confirm whether UE's 2D Platformer template can be used as a base or only as an input/camera reference. Record the final choice in `GDD.md` §4. If the candle does not read as 2.5D, change the approach before final art. Suggested owner: knightsGamer. Helpers: Jacob, Arashoo.
+> Jacob (lead 3D) provides the lit 3D candle mesh; knightsGamer (pipeline) imports it into a dark room with an **orthographic side camera** and a point light attached to the flame. Set units (1 unit = 1 cm), material, and pivot at base. Screenshot at **1280×720** and post in `#art`. Confirm whether UE's 2D Platformer template can be used as a base or only as an input/camera reference. Record the final choice in `GDD.md` §4. If the candle does not read as 2.5D, change the approach before final art. Suggested owner: Jacob + knightsGamer. Helpers: Arashoo.
 
 **Checklist:**
 
@@ -195,11 +196,11 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 - **Labels:** `Code`, `Design`, `W2`, `Must`
 - **Due:** 2026-12-06
 - **Suggested owner:** Jon + Fermin
-- **Helpers:** knightsGamer
+- **Helpers:** Jacob (collectible mesh), knightsGamer (import)
 
 **Description to paste:**
 
-> Spawn the required number of collectibles from room config. Overlap collects, increments HUD X/Y, fires `CollectibleCollected`, and prevents double-collect. Reaching the required amount fires `ExitPortalOpened`. Collectible name per D06. Suggested owner: Jon + Fermin. Helpers: knightsGamer.
+> Spawn the required number of collectibles from room config. Overlap collects, increments HUD X/Y, fires `CollectibleCollected`, and prevents double-collect. Reaching the required amount fires `ExitPortalOpened`. Collectible name per D06. Jacob owns the collectible mesh; knightsGamer handles its import. Suggested owner: Jon + Fermin. Helpers: Jacob, knightsGamer.
 
 **Checklist:**
 
@@ -215,12 +216,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 - **List:** `Week 2`
 - **Labels:** `Code`, `3D Art`, `W2`, `Must`
 - **Due:** 2026-12-06
-- **Suggested owner:** Arashoo + Jacob
-- **Helpers:** Fermin
+- **Suggested owner:** Jacob (lead 3D) + Arashoo (code)
+- **Helpers:** Fermin, knightsGamer (import)
 
 **Description to paste:**
 
-> Build `CL_Hub` with power outlet and/or air canal portals per D05. Portal trigger uses `Open Level` to `CL_Room_01`; `GameInstance` stores cleared rooms. Portals are labelled with room number and show a "complete" state after clearing. No timer runs in the hub. Suggested owner: Arashoo + Jacob. Helpers: Fermin.
+> Build `CL_Hub` with power outlet and/or air canal portals per D05. Jacob owns the hub and portal meshes; Arashoo owns `Open Level` to `CL_Room_01` and `GameInstance` cleared-room storage. Portals are labelled with room number and show a "complete" state after clearing. No timer runs in the hub. Suggested owner: Jacob + Arashoo. Helpers: Fermin, knightsGamer (import).
 
 **Checklist:**
 
@@ -236,12 +237,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 - **List:** `Week 2`
 - **Labels:** `3D Art`, `Design`, `W2`, `Must`
 - **Due:** 2026-12-06
-- **Suggested owner:** Fermin + Jacob
-- **Helpers:** Jon
+- **Suggested owner:** Jacob (lead 3D) + Fermin (design)
+- **Helpers:** Jon, knightsGamer (import)
 
 **Description to paste:**
 
-> Build `CL_Room_01` from Jacob's modular kit. First 30 seconds teach through level design: easy collectible on start platform, one moving platform to the second, one switch + gate to the third if D01 = 3. Use final-style materials, not greybox. Suggested owner: Fermin + Jacob. Helpers: Jon.
+> Build `CL_Room_01` from Jacob's modular kit. Jacob owns all 3D assets and the moving-platform mesh; Fermin owns layout and pacing. First 30 seconds teach through level design: easy collectible on start platform, one moving platform to the second, one switch + gate to the third if D01 = 3. Use final-style materials, not greybox. Suggested owner: Jacob + Fermin. Helpers: Jon, knightsGamer (import).
 
 **Checklist:**
 
@@ -303,12 +304,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 - **List:** `Week 3`
 - **Labels:** `Code`, `3D Art`, `W3`, `Must`
 - **Due:** 2026-12-13
-- **Suggested owner:** Jon + Jacob
+- **Suggested owner:** Jacob (lead 3D) + Jon (code)
 - **Helpers:** Fermin
 
 **Description to paste:**
 
-> Pressure switch opens a connected gate. Switch glows when active; gate reacts visibly. Link configured in mechanic data asset. Fire `SwitchActivated` and `GateOpened`. Must be readable at 1280×720 without text. Suggested owner: Jon + Jacob. Helpers: Fermin.
+> Pressure switch opens a connected gate. Jacob owns the switch and gate meshes and their on/off read; Jon owns the link logic configured in the mechanic data asset. Switch glows when active; gate reacts visibly. Fire `SwitchActivated` and `GateOpened`. Must be readable at 1280×720 without text. Suggested owner: Jacob + Jon. Helpers: Fermin.
 
 **Checklist:**
 
@@ -325,11 +326,11 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 - **Labels:** `Code`, `W3`, `Must`
 - **Due:** 2026-12-13
 - **Suggested owner:** Arashoo
-- **Helpers:** knightsGamer, Jon
+- **Helpers:** Jacob (pad mesh), knightsGamer (import), Jon
 
 **Description to paste:**
 
-> Add a teleport pad **inside** a room, visually distinct from hub portals. Target configured in mechanic data asset. Fires `TeleportRequested`. Destination must be obvious before stepping on it. Suggested owner: Arashoo. Helpers: knightsGamer, Jon.
+> Add a teleport pad **inside** a room, visually distinct from hub portals. Jacob owns the pad mesh; knightsGamer handles its import; Arashoo owns the code. Target configured in mechanic data asset. Fires `TeleportRequested`. Destination must be obvious before stepping on it. Suggested owner: Arashoo. Helpers: Jacob, knightsGamer, Jon.
 
 **Checklist:**
 
@@ -345,12 +346,12 @@ Due dates: **W1 = 2026-11-29 · W2 = 2026-12-06 · W3 = 2026-12-13 · W4 = 2026-
 - **List:** `Week 3`
 - **Labels:** `3D Art`, `Design`, `W3`, `Must`
 - **Due:** 2026-12-13
-- **Suggested owner:** Fermin + Jacob
-- **Helpers:** Jon
+- **Suggested owner:** Jacob (lead 3D) + Fermin (design)
+- **Helpers:** Jon, knightsGamer (import)
 
 **Description to paste:**
 
-> Build `CL_Room_02` using all three MVP mechanics: moving platform, switch → gate, in-room teleport pad. Place the D01 collectible count. Solvable without text prompts. Use final-style kit. Suggested owner: Fermin + Jacob. Helpers: Jon.
+> Build `CL_Room_02` using all three MVP mechanics: moving platform, switch → gate, in-room teleport pad. Jacob owns all 3D assets and the room kit; Fermin owns layout and pacing. Place the D01 collectible count. Solvable without text prompts. Use final-style kit. Suggested owner: Jacob + Fermin. Helpers: Jon, knightsGamer (import).
 
 **Checklist:**
 
@@ -586,8 +587,8 @@ Use this checklist for every parking-lot card:
 
 - **Labels:** `3D Art`, `Should`
 - **Due:** none
-- **Suggested owner:** anyone
-- **Description to paste:** > Parked from the old concept. Obstacles are mechanics in the MVP, not enemies. Revisit only if a room needs a threat. Requires a telegraph (visual + audio) before any hit.
+- **Suggested owner:** Jacob if promoted
+- **Description to paste:** > Parked from the old concept. Obstacles are mechanics in the MVP, not enemies. Revisit only if a room needs a threat. Requires a telegraph (visual + audio) before any hit. Jacob leads the 3D if promoted.
 
 ## P-04 — Double jump costing wax
 
@@ -614,15 +615,15 @@ Use this checklist for every Phase 2 card:
 
 - **Labels:** `3D Art`, `Design`, `Phase2`
 - **Due:** none
-- **Suggested owner:** anyone
-- **Description to paste:** > After MVP acceptance. Add rooms 03+ using the same modular kit and room config data. Each room needs one new puzzle idea, collectibles, and a clean hub portal state.
+- **Suggested owner:** Jacob (lead 3D) if promoted
+- **Description to paste:** > After MVP acceptance. Add rooms 03+ using the same modular kit and room config data. Jacob leads all 3D. Each room needs one new puzzle idea, collectibles, and a clean hub portal state.
 
 ## PH-02 — Enemy / threat system
 
 - **Labels:** `3D Art`, `Code`, `Phase2`
 - **Due:** none
-- **Suggested owner:** anyone
-- **Description to paste:** > Only if rooms need a threat beyond mechanics. Requires a telegraph, state machine, and clear feedback table in `GDD.md` §8. Not part of the MVP.
+- **Suggested owner:** Jacob (3D) + Jon (code) if promoted
+- **Description to paste:** > Only if rooms need a threat beyond mechanics. Jacob leads any 3D; Jon leads code. Requires a telegraph, state machine, and clear feedback table in `GDD.md` §8. Not part of the MVP.
 
 ## PH-03 — Music states + light-radius polish
 

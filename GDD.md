@@ -9,7 +9,7 @@
 
 **GitHub docs repo:** https://github.com/A-r-Ash/ProjectCandleLight
 
-**Team:** Arashoo (lead + core code) · Jon (systems code) · knightsGamer (3D pipeline + look test) · Jacob (3D environments / puzzle kit) · Fermin (design + 2D art + UI) · Shags (audio) · Krassus (pending — no tasks until he replies).
+**Team:** Arashoo (lead + core code) · Jon (systems code) · **Jacob (lead 3D — owns all 3D art/assets, rooms, kit and mechanics)** · knightsGamer (3D pipeline + look test — imports, units, materials and template decision; supports Jacob) · Fermin (design + 2D art + UI) · Shags (audio) · Krassus (pending — no tasks until he replies).
 
 Working title: **Candlelight** (Fermin may confirm the final name — D00).
 
@@ -23,7 +23,7 @@ Working title: **Candlelight** (Fermin may confirm the final name — D00).
 
 **MVP scope:** Hub + 2 puzzle rooms + 3 mechanics + candle timer + win/lose + packaged build.
 
-**Owners:** Arashoo = lead + core code · Jon = systems code · knightsGamer = 3D pipeline + look test · Jacob = 3D environments / puzzle kit · Fermin = design + 2D art + UI (decides open questions) · Shags = audio · **Krassus = pending, no tasks until he replies**.
+**Owners:** Arashoo = lead + core code · Jon = systems code · **Jacob = lead 3D (all 3D art/assets, rooms, kit, portals, mechanics)** · **knightsGamer = 3D pipeline + look test, supports Jacob** · Fermin = design + 2D art + UI (decides open questions) · Shags = audio · **Krassus = pending, no tasks until he replies**.
 
 **Where things live:**
 
@@ -163,7 +163,7 @@ Test with 3 cold players. If anyone asks "what do I do?", the room failed. Fix t
 
 ## 3. ART
 
-Owners: **knightsGamer** = candle, collectible, teleport pad, 3D pipeline · **Jacob** = hub, modular room kit, portals, gate · **Fermin** = UI, parallax, cover art.
+Owners: **Jacob** = lead 3D — candle, collectible, teleport pad, hub, modular room kit, portals, gate, all 3D meshes/materials · **knightsGamer** = 3D pipeline and look test (imports, units, materials setup, template decision), supporting Jacob · **Fermin** = UI, parallax, cover art.
 
 ### The look
 
@@ -190,9 +190,9 @@ No other accent colours. If everything is bright, nothing is urgent.
 
 | Asset | Owner | Priority |
 |---|---|---|
-| Candle character (body + flame) | knightsGamer | Must |
-| Collectible (wax drop / light fragment) | knightsGamer | Must |
-| In-room teleport pad | knightsGamer | Must |
+| Candle character (body + flame) | Jacob | Must |
+| Collectible (wax drop / light fragment) | Jacob | Must |
+| In-room teleport pad | Jacob | Must |
 | Hub floor + props | Jacob | Must |
 | Power outlet portal | Jacob | Must |
 | Air canal portal | Jacob | Should |
@@ -206,7 +206,7 @@ No other accent colours. If everything is bright, nothing is urgent.
 
 Enemies and checkpoints from the old concept are parked in §7.
 
-### Look test — knightsGamer, before final art
+### Look test — Jacob (lead 3D) + knightsGamer (pipeline), before final art
 
 Orthographic camera + one lit 3D candle in a dark room at 1280×720. Screenshot in `#art`. If it doesn't read as 2.5D, change the approach before anyone makes final assets.
 
@@ -218,7 +218,7 @@ Final-style mesh/material, silhouette readable against dark background, danger s
 
 ## 4. TECH
 
-Owners: **Arashoo** = core code · **Jon** = systems · **knightsGamer** = pipeline.
+Owners: **Arashoo** = core code · **Jon** = systems · **Jacob** = lead 3D (all 3D assets, rooms, kit, mechanics) · **knightsGamer** = pipeline/import + look test, supporting Jacob.
 
 ### Locked
 
@@ -226,7 +226,7 @@ Unreal **5.8.4** for everyone · Windows PC · 1280×720 · 60 fps target · fix
 
 ### UE template decision
 
-UE's **2D Platformer template** is Paper2D sprite-based and unlit — it fights the shrinking light. Use it as a **reference for input/camera only**. Start from **Third Person or Blank** with an orthographic camera. Final choice recorded by knightsGamer's look test: `[TBD after look test]`.
+UE's **2D Platformer template** is Paper2D sprite-based and unlit — it fights the shrinking light. Use it as a **reference for input/camera only**. Start from **Third Person or Blank** with an orthographic camera. Final choice recorded in the Week 1 look test (Jacob leads the 3D asset, knightsGamer leads the pipeline decision): `[TBD after look test]`.
 
 ### Hub / teleport
 
@@ -281,7 +281,7 @@ This is a **pull board**: names below are **suggested owners only**. Any member 
 | Discord topics + `#info` pins + Trello live | Arashoo | Board URL pinned, matches Discord setup |
 | Wireframes + input map at 1280×720 | Fermin | Hub/HUD/win/lose pinned in `#design` |
 | Decide D00–D06 | Fermin | Answers written into §1 |
-| 2.5D look test + template decision | knightsGamer | Screenshot in `#art`, decision in §4 |
+| 2.5D look test + template decision | Jacob + knightsGamer | Screenshot in `#art`, decision in §4 |
 | Prototype: move, jump, collect | Jon | All five gates pass in build |
 | Weekly build + playtest | All | Top 3 issues in `#qa` |
 
@@ -291,8 +291,8 @@ This is a **pull board**: names below are **suggested owners only**. Any member 
 |---|---|---|
 | Candle timer + shrinking light + data asset | Arashoo | Drains, shrinks, low cue fires |
 | Collectibles + X/Y counter | Jon + Fermin | Required amount opens exit |
-| Hub map + portal level select | Arashoo + Jacob | Portal → Room 01 → hub works |
-| Room 01 blockout + moving platform | Fermin + Jacob | Collectible reachable, final-style kit |
+| Hub map + portal level select | Jacob + Arashoo | Portal → Room 01 → hub works |
+| Room 01 blockout + moving platform | Jacob + Fermin | Collectible reachable, final-style kit |
 | Room 01 audio cues | Shags | Teleport, collect, low candle fire once |
 | Weekly build + playtest | All | Cold player clears Room 01 |
 
@@ -300,9 +300,9 @@ This is a **pull board**: names below are **suggested owners only**. Any member 
 
 | Task | Suggested owner | Done when |
 |---|---|---|
-| Pressure switch → gate | Jon + Jacob | Visually readable at 1280×720 |
+| Pressure switch → gate | Jacob + Jon | Visually readable at 1280×720 |
 | In-room teleport pad | Arashoo | Distinct from hub portals |
-| Room 02 layout + collectibles | Fermin + Jacob | Solvable without text |
+| Room 02 layout + collectibles | Jacob + Fermin | Solvable without text |
 | Win / lose / pause panels | Fermin + Jon | Every panel has a way out |
 | Candle expiry + retry (D02) | Arashoo | Three clean retries |
 | Weekly build + playtest | All | Full hub → room → results → hub works |

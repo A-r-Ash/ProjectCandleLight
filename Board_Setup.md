@@ -61,6 +61,7 @@ Blocked by: [card link or none]
 ## Cadence
 
 - **Week start:** each person browses that week's list and **pulls** any card they can do — suggested owner is guidance, not permission. Add yourself as member, then move the card to `Doing`.
+- **3D cards:** `3D Art` cards are suggested to **Jacob first** (lead 3D). `Pipeline` / look-test cards are suggested to **knightsGamer**, who supports Jacob. Anyone may still claim a card.
 - **Conflict:** if two people want the same card, agree in `#general`; one person keeps it.
 - **Standup 2–3×/week in `#general`:** each person posts Done / Doing / Blocked **with card links**.
 - **Week end:** demo the build; a card moves to `Done` only when all five gates pass. Add one retro card with what to keep/change.

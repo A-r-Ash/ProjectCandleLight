@@ -29,4 +29,4 @@ This repository is the **transparent record of the project**. Everyone can see w
 
 ## Team
 
-Arashoo (lead) · Jon (code) · knightsGamer (3D pipeline) · Jacob (3D environments) · Fermin (design/UI) · Shags (audio) · Krassus (pending — no tasks until he replies).
+Arashoo (lead) · Jon (code) · Jacob (lead 3D — all 3D assets, rooms, kit and mechanics) · knightsGamer (3D pipeline + look test, supports Jacob) · Fermin (design/UI) · Shags (audio) · Krassus (pending — no tasks until he replies).
