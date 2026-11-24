@@ -1,0 +1,11 @@
+CANDLELIGHT — quick update (24 Nov 2026)
+
+Fermin asked for one more day to finalize the game design idea. We are giving him that time.
+
+What this means:
+- No new final design decisions today.
+- No pressure to pull new Trello cards today.
+- Keep discussion in #design, but do not lock anything in yet.
+- We pick back up tomorrow, 25 Nov 2026.
+
+Nothing is broken and nobody needs to do anything. Let Fermin finish the thinking, then we continue.
