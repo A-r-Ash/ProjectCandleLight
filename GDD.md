@@ -7,6 +7,8 @@
 
 **Trello board:** https://trello.com/b/MUOJqRCI/candlelightdevelopment
 
+**GitHub docs repo:** https://github.com/A-r-Ash/ProjectCandleLight
+
 **Team:** Arashoo (lead + core code) · Jon (systems code) · knightsGamer (3D pipeline + look test) · Jacob (3D environments / puzzle kit) · Fermin (design + 2D art + UI) · Shags (audio) · Krassus (pending — no tasks until he replies).
 
 Working title: **Candlelight** (Fermin may confirm the final name — D00).

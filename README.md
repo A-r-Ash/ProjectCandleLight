@@ -4,6 +4,8 @@
 
 **One-page handout:** `00_START_HERE.md` — pin in `#general`.
 
+**GitHub docs repo:** https://github.com/A-r-Ash/ProjectCandleLight
+
 The former `00`–`07` documents were merged into `GDD.md` and deleted. `Specs/` contains archived format examples only — not current design instructions.
 
 Working folder: `J:\UnrealProjects_Team\Project November 2026\Docs\`

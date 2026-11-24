@@ -26,7 +26,7 @@ Removed/merged: `concepts` → `#design` + `parking-lot` thread · `timezones` �
 ```
 CANDLELIGHT — READ FIRST
 
-Repo: [TBD]  ·  Board: https://trello.com/b/MUOJqRCI/candlelightdevelopment  ·  Docs: J:\UnrealProjects_Team\Project November 2026\Docs\
+Repo: https://github.com/A-r-Ash/ProjectCandleLight  ·  Board: https://trello.com/b/MUOJqRCI/candlelightdevelopment  ·  Docs: J:\UnrealProjects_Team\Project November 2026\Docs\
 Official GDD (single source of truth): [Google Docs link]
 Engine: Unreal 5.8.4  ·  Platform: Windows PC @ 1280×720  ·  MVP: 4 weeks (hub + 2 puzzle rooms + candle timer, playable only)  ·  Sprint length: 1 week
 Concept: Captain Toad-style puzzle rooms. Collect light before the candle burns out. Teleport hub via power outlet / air canals.

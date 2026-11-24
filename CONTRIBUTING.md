@@ -2,6 +2,9 @@
 
 This repository is the **transparent record of the project**. Everyone can see what was decided, who owns what, and how the game is changing.
 
+- **Docs repo:** https://github.com/A-r-Ash/ProjectCandleLight
+- **Trello board:** https://trello.com/b/MUOJqRCI/candlelightdevelopment
+
 ## Source of truth
 
 1. **`GDD.md`** — the official game design document. If Discord or an old file disagrees, the GDD wins.

@@ -53,5 +53,6 @@ D00 final title · D01 collectible count · D02 candle expiry · D03 room count 
 ## Links
 
 **Full GDD (single source of truth):** `GDD.md`
+**GitHub docs repo:** https://github.com/A-r-Ash/ProjectCandleLight
 Docs: `J:\UnrealProjects_Team\Project November 2026\Docs\`
 Board: https://trello.com/b/MUOJqRCI/candlelightdevelopment
