@@ -30,3 +30,8 @@ Saved/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Never commit secrets or local webhook URLs
+.env
+*.token
+*webhook*url*
