@@ -1,6 +1,0 @@
-Candle timer + shrinking light
-Collectibles + X/Y counter
-Hub map + teleport portals
-Room 01 + moving platform
-Room 01 audio cues
-Weekly build + playtest

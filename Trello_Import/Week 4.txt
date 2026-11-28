@@ -1,6 +1,0 @@
-Bug sweep - crashes first
-Balance pass
-Onboarding check
-Packaging + clean-machine test
-Final playable build in #builds
-MVP demo + phase 2 feedback
